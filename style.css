@@ -58,3 +58,5 @@ body:before{position:fixed;inset:0;z-index:-1;pointer-events:none;content:"";opa
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 /* Decorative blueprint halos must never sit above their action buttons. */
 .blueprint-card:before{pointer-events:none}
+/* Placement pulse stays inside the hit target; only glow, never the button geometry, animates. */
+@keyframes placePulse{0%,100%{filter:drop-shadow(0 0 5px rgba(169,255,190,.28))}50%{filter:drop-shadow(0 0 13px rgba(169,255,190,.72))}}
