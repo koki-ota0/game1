@@ -1,8 +1,9 @@
 # ASTERIA · PR #2 visual redesign footage
 
 - **Build source commit:** `841762bf0d8490d4f46353165c042f92e94859f0`
-- **PR:** #2 (capture verified against the playable files committed to this PR)
-- **Merge commit:** to be recorded after the PR is merged; the captured game tree is unchanged by the archive metadata that follows.
+- **PR:** [#2](https://github.com/koki-ota0/game1/pull/2)
+- **Merge commit:** `512ada8aa430c8b1a329063e8d715603cfc6f51f`
+- **Version match:** Captured from the exact playable code in the merged PR; subsequent changes only archived the final merge SHA and folder name.
 - **Captured:** 2026-11-23 (UTC)
 - **Audio:** original synthesized ambient-synth score with soft selection, build, and report chimes; no voice-over. Each deliverable is AAC-LC stereo, 48 kHz, mixed to a gentle level and faded at the ends. Separate WAV and silent picture masters are retained.
 - **Visuals:** generated resort key art and character portraits. The playable build includes animated orbital accents, guest arrivals, glowing construction targets, and report transitions. Capture-only layout changes are described where used.
