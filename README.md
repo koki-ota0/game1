@@ -26,5 +26,11 @@ python3 serve.py
 - `index.html` — ゲーム画面とアクセシブルな操作要素
 - `style.css` — レスポンシブなリゾートUI
 - `game.js` — 客、施設、満足度、収支、シーズン、セーブデータを扱うゲームロジック
-- `public/images/asteria-resort.jpg` — リゾートのメインビジュアル
+- `public/images/asteria-orbit-hero.jpg` — 新しい星間リゾートのシネマティックなキービジュアル
+- `public/images/guest-astronomer.jpg`, `guest-botanist.jpg` — 旅人とアルバムのポートレート
 - `RESEARCH.md` — ゲームデザインと実装済みシステムの概要
+- `media/demos/` — PRマージごとに記録する、SNS編集向けデモ動画アーカイブ
+
+## 開発メモ: デモ動画のアーカイブ
+
+PRをマージするたびに、そのマージ済みバージョンのデモ動画を撮影し、Gitで管理します。縦型9:16を基本に、横型16:9や正方形1:1など編集しやすい複数の画角を保存してください。PR番号とマージコミットでディレクトリを分け、撮影内容・解像度・尺・音声の有無を同梱のREADMEに記録します。詳しくは [`media/demos/README.md`](media/demos/README.md) を参照してください。
