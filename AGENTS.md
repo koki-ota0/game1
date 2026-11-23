@@ -1,0 +1,3 @@
+# Persistent project instruction
+
+After every pull request is merged, save a demo video of that merged game version in Git. Use `media/demos/pr-<number>-<merge-sha-short>/`, include the full merge SHA and capture metadata in a folder README, and provide edit-ready aspect-ratio variants (at minimum 9:16 plus useful 16:9 and/or 1:1 footage). See `media/demos/README.md` for the archive convention. Record the exact merged playable build; for merges with no playable changes, reuse the existing gameplay footage and note why no new footage was needed.
