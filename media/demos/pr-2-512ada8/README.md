@@ -15,3 +15,7 @@
 | `square-1080x1080.mp4` | `square-1080x1080-silent.mp4` | `square-1080x1080-mix.wav` | 1080 × 1080 · 1:1 · 24 fps · 8.5 s | Seven nights of play, a season rollover, and the illustrated postcard album. |
 
 The silent masters are 4–8 fps browser-frame footage upscaled to the delivery size; the MP4 exports use a 24 fps container cadence for common editing/social workflows. Use the delivered MP4s for quick previews and the silent MP4 plus WAV together when changing the mix or cutting picture separately. Add narration, titles, and captions in an editor without overwriting this archive.
+
+## Full-screen walkthrough recapture
+
+[`full-screen-materials/`](full-screen-materials/) contains a 50.5-second, uncropped 9:16 walkthrough of the exact PR #2 merged game build, split into 13 sound-backed clips following actual play order. It includes a matching silent master, separate stereo WAV mix, and a clip/timecode index. The observatory upgrade is actively performed on camera. Use this full walkthrough as the baseline; later release clips should focus only on newly added or changed elements.

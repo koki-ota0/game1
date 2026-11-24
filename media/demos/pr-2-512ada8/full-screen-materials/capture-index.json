@@ -1,0 +1,118 @@
+{
+  "viewport": {
+    "width": 540,
+    "height": 960
+  },
+  "delivery": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24
+  },
+  "totalDuration": 50.5,
+  "scenes": [
+    {
+      "name": "01-overview",
+      "start": 0,
+      "count": 14,
+      "duration": 3.5,
+      "file": "01-overview.mp4",
+      "startSec": 0
+    },
+    {
+      "name": "02-reservations-and-room-assignment",
+      "start": 14,
+      "count": 24,
+      "duration": 6,
+      "file": "02-reservations-and-room-assignment.mp4",
+      "startSec": 3.5
+    },
+    {
+      "name": "03-night-report",
+      "start": 38,
+      "count": 20,
+      "duration": 5,
+      "file": "03-night-report.mp4",
+      "startSec": 9.5
+    },
+    {
+      "name": "04-island-map",
+      "start": 58,
+      "count": 20,
+      "duration": 5,
+      "file": "04-island-map.mp4",
+      "startSec": 14.5
+    },
+    {
+      "name": "05-module-inspector",
+      "start": 78,
+      "count": 10,
+      "duration": 2.5,
+      "file": "05-module-inspector.mp4",
+      "startSec": 19.5
+    },
+    {
+      "name": "06-module-upgrade-confirmation",
+      "start": 88,
+      "count": 10,
+      "duration": 2.5,
+      "file": "06-module-upgrade-confirmation.mp4",
+      "startSec": 22
+    },
+    {
+      "name": "07-blueprint-catalog",
+      "start": 98,
+      "count": 16,
+      "duration": 4,
+      "file": "07-blueprint-catalog.mp4",
+      "startSec": 24.5
+    },
+    {
+      "name": "08-placement-preview",
+      "start": 114,
+      "count": 12,
+      "duration": 3,
+      "file": "08-placement-preview.mp4",
+      "startSec": 28.5
+    },
+    {
+      "name": "09-facility-placed",
+      "start": 126,
+      "count": 12,
+      "duration": 3,
+      "file": "09-facility-placed.mp4",
+      "startSec": 31.5
+    },
+    {
+      "name": "10-night-report-after-build",
+      "start": 138,
+      "count": 16,
+      "duration": 4,
+      "file": "10-night-report-after-build.mp4",
+      "startSec": 34.5
+    },
+    {
+      "name": "11-season-finale",
+      "start": 154,
+      "count": 16,
+      "duration": 4,
+      "file": "11-season-finale.mp4",
+      "startSec": 38.5
+    },
+    {
+      "name": "12-memory-album-overview",
+      "start": 170,
+      "count": 16,
+      "duration": 4,
+      "file": "12-memory-album-overview.mp4",
+      "startSec": 42.5
+    },
+    {
+      "name": "13-postcard-artwork-and-story",
+      "start": 186,
+      "count": 16,
+      "duration": 4,
+      "file": "13-postcard-artwork-and-story.mp4",
+      "startSec": 46.5
+    }
+  ]
+}
