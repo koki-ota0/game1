@@ -22,3 +22,5 @@ Keep the video files and edit-friendly audio masters in Git alongside their mani
 - PR #5 is archive-only: it records these PR #4 demo assets and changes no playable behavior, so no second gameplay video is needed.
 - [`pr-6-c40af3b/`](pr-6-c40af3b/) — PR #6, the island-first game screen; archive keyed to merged commit `c40af3b0f1b9685a8c690136b03be3b06774c122`.
 - The PR carrying the PR #6 archive is archive-only and changes no playable behavior; this PR #6 footage is the correct version to reuse.
+- [`pr-8-082f88b/`](pr-8-082f88b/) — PR #8, the guided first-night and staged day-two introduction; archive keyed to merged commit `082f88b6ba9da32ea8b5af24c3758934541d4182`.
+- PR #9 carries the PR #8 demo assets only; it changes no playable behavior, so the PR #8 footage is the correct merged-game version to reuse (no second gameplay take is needed).
