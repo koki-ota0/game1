@@ -1,0 +1,58 @@
+{
+  "pull_request": 6,
+  "title": "Make ASTERIA's island the game screen",
+  "playable_build_merge_sha": "c40af3b0f1b9685a8c690136b03be3b06774c122",
+  "source_commit": "5156844",
+  "captured_date": "2026-11-23",
+  "capture_tool": "Playwright 1.65.1 with Chromium",
+  "source_viewports": {
+    "portrait": "432x768 (9:16)",
+    "landscape": "1280x720 (16:9)"
+  },
+  "scene_order": [
+    "Island map overview",
+    "Direct guest-to-room assignment on the map",
+    "Auto-assign remaining arrivals",
+    "Night results",
+    "Blueprint sheet and solar-facility placement",
+    "Memory album with earned postcards"
+  ],
+  "exports": {
+    "portrait-1080x1920.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 25.92,
+      "video": "H.264, 30 fps",
+      "audio": "AAC stereo, 48 kHz"
+    },
+    "portrait-1080x1920-silent.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 25.90,
+      "video": "H.264, 30 fps",
+      "audio": null
+    },
+    "portrait-1080x1920-mix.wav": {
+      "duration_seconds": 25.90,
+      "audio": "PCM stereo, 48 kHz"
+    },
+    "landscape-1920x1080.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 30.19,
+      "video": "H.264, 30 fps",
+      "audio": "AAC stereo, 48 kHz"
+    },
+    "landscape-1920x1080-silent.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 30.17,
+      "video": "H.264, 30 fps",
+      "audio": null
+    },
+    "landscape-1920x1080-mix.wav": {
+      "duration_seconds": 30.17,
+      "audio": "PCM stereo, 48 kHz"
+    }
+  }
+}

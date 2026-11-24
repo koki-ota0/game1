@@ -20,3 +20,5 @@ Keep the video files and edit-friendly audio masters in Git alongside their mani
 - [`pr-2-512ada8/`](pr-2-512ada8/) — PR #2, the generated-art and animation redesign; archive keyed to merged commit `512ada8aa430c8b1a329063e8d715603cfc6f51f`.
 - [`pr-4-293a37f/`](pr-4-293a37f/) — PR #4, the map-first command-deck redesign; archive keyed to merged commit `293a37f2b5bc26109b0c2ef4cf39012a937a970c`.
 - PR #5 is archive-only: it records these PR #4 demo assets and changes no playable behavior, so no second gameplay video is needed.
+- [`pr-6-c40af3b/`](pr-6-c40af3b/) — PR #6, the island-first game screen; archive keyed to merged commit `c40af3b0f1b9685a8c690136b03be3b06774c122`.
+- The PR carrying the PR #6 archive is archive-only and changes no playable behavior; this PR #6 footage is the correct version to reuse.
