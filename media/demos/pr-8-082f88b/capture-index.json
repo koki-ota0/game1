@@ -1,0 +1,65 @@
+{
+  "pull_request": 8,
+  "title": "Guide ASTERIA's first-night gameplay",
+  "playable_build_merge_sha": "082f88b6ba9da32ea8b5af24c3758934541d4182",
+  "capture_source_commit": "54907942574a13ffc17b0ced2cf70d9eadd04481",
+  "captured_at_utc": "2026-11-24T04:43:56Z",
+  "capture_tool": {
+    "playwright": "1.65.1",
+    "chromium": "153.0.0"
+  },
+  "fresh_save_for_each_take": true,
+  "capture_layout_changes": "None; full viewport preserved and proportionally scaled for delivery.",
+  "scene_order": [
+    "Island overview and guided first guest",
+    "Tap the glowing recommended guest room",
+    "Open the first night and view the report",
+    "Continue to day two and reveal additional choices",
+    "Open building choices from a green plot and place a guest cabin",
+    "Open the earned traveler memory in the main game view"
+  ],
+  "audio": {
+    "music": "Original ASTERIA ambient score and UI chimes composed/synthesized for this capture; no third-party music.",
+    "game_audio": "Off; custom score is separately mixed.",
+    "social_mix": "AAC-LC stereo, 48 kHz",
+    "edit_masters": "Separate stereo PCM WAV mixes at 48 kHz"
+  },
+  "exports": {
+    "portrait-1080x1920.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 22.20,
+      "video": "H.264 High, 30 fps, yuv420p",
+      "audio": "AAC-LC stereo, 48 kHz"
+    },
+    "portrait-1080x1920-silent.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 22.20,
+      "video": "H.264 High, 30 fps, yuv420p",
+      "audio": null
+    },
+    "portrait-1080x1920-mix.wav": {
+      "duration_seconds": 24.50,
+      "audio": "PCM stereo, 48 kHz"
+    },
+    "landscape-1920x1080.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 22.77,
+      "video": "H.264 High, 30 fps, yuv420p",
+      "audio": "AAC-LC stereo, 48 kHz"
+    },
+    "landscape-1920x1080-silent.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 22.77,
+      "video": "H.264 High, 30 fps, yuv420p",
+      "audio": null
+    },
+    "landscape-1920x1080-mix.wav": {
+      "duration_seconds": 25.60,
+      "audio": "PCM stereo, 48 kHz"
+    }
+  }
+}
