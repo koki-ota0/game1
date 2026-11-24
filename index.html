@@ -6,38 +6,28 @@
   <meta name="theme-color" content="#111922" />
   <meta name="description" content="ASTERIA — あなたの設計で星の宿を育てる、小惑星リゾート運営ゲーム。" />
   <title>ASTERIA — 小惑星リゾート</title>
-  <link rel="stylesheet" href="style.css?v=asteria-5" />
+  <link rel="stylesheet" href="style.css?v=asteria-6" />
 </head>
 <body>
   <main class="app-shell">
     <header class="topbar">
-      <div class="brand-lockup"><span class="brand-sigil">✦</span><div><b>ASTERIA <i>RESORT</i></b><small>小惑星リゾート · 星の宿をつくる</small></div></div>
+      <div class="brand-lockup"><span class="brand-sigil">✦</span><div><b>ASTERIA</b><small class="sr-only">小惑星リゾート</small></div></div>
+      <div class="season-tag" id="seasonTag">SEASON 01 · DAY 01 / 07</div>
       <button class="icon-btn" id="soundButton" aria-label="サウンド切替">♫</button>
     </header>
 
-    <section class="world-hero" aria-label="ASTERIAの夜景">
-      <div class="hero-orbit" aria-hidden="true"><span class="orbit-ring"></span><span class="orbit-moon">✦</span><span class="orbit-ship">✦</span></div>
-      <div class="hero-shade"></div>
-      <div class="season-tag" id="seasonTag">SEASON 01　·　DAY 01 / 07</div>
-      <div class="world-copy"><span class="world-kicker">WELCOME TO ASTERIA</span><h1>星のあいだに、<br/><em>帰りたくなる場所を。</em></h1><p id="heroEvent">今夜は、流星雨が降る予報。</p></div>
-      <div class="hero-coordinates"><span>ASTEROID 04·17</span><span>外気温 −183°C</span></div>
+    <section class="resource-strip" aria-label="リゾート資源">
+      <div class="resource" title="クレジット"><span class="resource-icon credit-icon">◈</span><span><b id="creditsValue">0</b><small class="sr-only">クレジット</small></span></div>
+      <div class="resource" title="評判"><span class="resource-icon rep-icon">✧</span><span><b id="ratingValue">★☆☆☆☆</b><small class="sr-only">評判 <i id="repValue">25</i></small></span></div>
+      <div class="resource" title="酸素"><span class="resource-icon oxygen-icon">◉</span><span><b id="oxygenValue">0 / 0</b><small class="sr-only">酸素</small></span></div>
+      <div class="resource" title="電力"><span class="resource-icon power-icon">⌁</span><span><b id="powerValue">0 / 0</b><small class="sr-only">電力</small></span></div>
     </section>
 
-    <section class="resource-strip" aria-label="リゾートの資源">
-      <div class="resource"><span class="resource-icon credit-icon">◈</span><span><b id="creditsValue">0</b><small>クレジット</small></span></div>
-      <div class="resource"><span class="resource-icon rep-icon">✧</span><span><b id="ratingValue">★☆☆☆☆</b><small>評判 <i id="repValue">25</i></small></span></div>
-      <div class="resource"><span class="resource-icon oxygen-icon">◉</span><span><b id="oxygenValue">0 / 0</b><small>酸素バランス</small></span></div>
-      <div class="resource"><span class="resource-icon power-icon">⌁</span><span><b id="powerValue">0 / 0</b><small>電力バランス</small></span></div>
-    </section>
+    <div class="daily-banner" id="dailyBanner"><span class="event-icon" id="eventIcon">☄</span><span class="event-copy"><b id="eventTitle">流星雨の夜</b><small id="eventText" class="sr-only">星見が好きな客の満足度が上がる</small></span><span class="event-countdown">TONIGHT</span></div>
 
-    <div class="daily-banner" id="dailyBanner"><span class="event-icon" id="eventIcon">☄</span><span class="event-copy"><b id="eventTitle">流星雨の夜</b><small id="eventText">星見が好きな客の満足度が上がる</small></span><span class="event-countdown">TONIGHT</span></div>
-
-    <section class="command-deck" id="commandDeck" aria-label="リゾート運営">
+    <section class="command-deck" id="commandDeck" aria-label="リゾート">
       <section class="game-panel map-panel" id="mapPanel"></section>
-      <section class="game-panel guest-panel" id="guestsPanel"></section>
     </section>
-
-    <footer class="page-footer"><span>✦</span> 宇宙でいちばん、心がほどける場所。 <span>ASTERIA</span></footer>
   </main>
 
   <div class="management-backdrop hidden" id="managementBackdrop">
@@ -57,6 +47,6 @@
     </section>
   </div>
 
-  <script src="game.js?v=asteria-5"></script>
+  <script src="game.js?v=asteria-6"></script>
 </body>
 </html>
