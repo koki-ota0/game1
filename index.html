@@ -2,45 +2,42 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
-  <meta name="theme-color" content="#111922" />
-  <meta name="description" content="ASTERIA — あなたの設計で星の宿を育てる、小惑星リゾート運営ゲーム。" />
-  <title>ASTERIA — 小惑星リゾート</title>
-  <link rel="stylesheet" href="style.css?v=asteria-7" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#17162f" />
+  <meta name="description" content="小さな星の宿で、旅人の願いをひとつかなえる、やさしい5夜のゲーム。" />
+  <title>ASTERIA — ほしのちいさな宿</title>
+  <link rel="stylesheet" href="style.css?v=moonberry-1" />
 </head>
 <body>
-  <main class="app-shell">
+  <main class="game-screen" aria-label="ほしのちいさな宿">
     <header class="topbar">
-      <div class="brand-lockup"><span class="brand-sigil">✦</span><div><b>ASTERIA</b><small class="sr-only">小惑星リゾート</small></div></div>
-      <div class="season-tag" id="seasonTag">SEASON 01 · DAY 01 / 07</div>
-      <button class="icon-btn" id="soundButton" aria-label="サウンド切替">♫</button>
+      <div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span><b>ASTERIA</b><small>ほしのちいさな宿</small></span></div>
+      <div class="night-progress" aria-label="5夜の進み具合"><span id="dayLabel">1 / 5 夜</span><div class="night-dots" id="nightDots" aria-hidden="true"></div></div>
     </header>
 
-    <section class="resource-strip" aria-label="リゾート資源">
-      <div class="resource" data-resource="credits" title="クレジット"><span class="resource-icon credit-icon">◈</span><span><b id="creditsValue">0</b><small>クレジット</small></span></div>
-      <div class="resource" data-resource="reputation" title="評判"><span class="resource-icon rep-icon">✧</span><span><b id="ratingValue">★☆☆☆☆</b><small>評判 <i id="repValue">25</i></small></span></div>
-      <div class="resource" data-resource="oxygen" title="酸素"><span class="resource-icon oxygen-icon">◉</span><span><b id="oxygenValue">0 / 0</b><small>酸素</small></span></div>
-      <div class="resource" data-resource="power" title="電力"><span class="resource-icon power-icon">⌁</span><span><b id="powerValue">0 / 0</b><small>電力</small></span></div>
+    <section class="scene" id="scene" aria-label="星のキャンプ">
+      <div class="scene-art" aria-hidden="true"></div>
+      <div class="sky-glow" aria-hidden="true"></div>
+      <div class="guest-note" id="guestNote" aria-live="polite"></div>
+      <div class="traveler" id="traveler" aria-hidden="true"></div>
+      <div class="scene-whisper" id="sceneWhisper">星がきらきら、今夜もいい夜。</div>
+      <div class="sparkle-layer" id="sparkleLayer" aria-hidden="true"></div>
     </section>
 
-    <div class="daily-banner" id="dailyBanner" aria-label="今夜のイベント"><span class="event-icon" id="eventIcon">☄</span><span class="event-copy"><b id="eventTitle">流星雨の夜</b><small id="eventText">星見が好きな客の満足度が上がる</small></span><span class="event-countdown">TONIGHT</span></div>
-
-    <section class="command-deck" id="commandDeck" aria-label="リゾート">
-      <section class="game-panel map-panel" id="mapPanel"></section>
+    <section class="choice-panel" id="choicePanel" aria-live="polite">
+      <div class="panel-heading">
+        <span class="step-badge" id="stepBadge">1</span>
+        <div><h1 id="panelTitle">今夜のおたのしみは？</h1><p id="panelHint">旅人のお願いに合うものをひとつ選ぼう</p></div>
+      </div>
+      <div class="activity-grid" id="activityGrid"></div>
+      <div class="result-card" id="resultCard" hidden></div>
     </section>
+
+    <button class="main-action" id="mainAction" type="button" disabled>
+      <span class="action-icon" id="actionIcon" aria-hidden="true">✦</span><span id="actionLabel">おもてなしを選んでね</span><span class="action-arrow" aria-hidden="true">→</span>
+    </button>
+    <footer class="soft-footer"><span>ゆっくりでだいじょうぶ</span><span class="footer-star" aria-hidden="true">✧</span></footer>
   </main>
-
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <div class="modal-backdrop hidden" id="modalBackdrop">
-    <section class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button class="modal-close" id="modalClose" aria-label="閉じる">×</button>
-      <div class="modal-kicker" id="modalKicker">NIGHT REPORT</div>
-      <h2 id="modalTitle">今夜の滞在記録</h2>
-      <div id="modalBody"></div>
-      <div class="modal-actions" id="modalActions"></div>
-    </section>
-  </div>
-
-  <script src="game.js?v=asteria-7"></script>
+  <script src="game.js?v=moonberry-1" defer></script>
 </body>
 </html>
