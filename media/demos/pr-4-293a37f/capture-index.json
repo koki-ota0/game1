@@ -1,0 +1,33 @@
+{
+  "playableBuildMergeSHA": "293a37f2b5bc26109b0c2ef4cf39012a937a970c",
+  "capturedUTC": "2026-11-23",
+  "method": "Playwright-operated gameplay; the portrait and landscape runs each start from a fresh local save.",
+  "sourceViewports": {
+    "portrait": { "width": 540, "height": 960 },
+    "landscape": { "width": 960, "height": 540 }
+  },
+  "deliveryFPS": 24,
+  "audio": {
+    "file": "soundtrack.wav",
+    "format": "stereo PCM, 48000 Hz",
+    "socialExport": "AAC stereo, 48000 Hz"
+  },
+  "deliverables": [
+    { "file": "portrait-1080x1920.mp4", "width": 1080, "height": 1920, "durationSeconds": 40.9, "audio": true },
+    { "file": "portrait-1080x1920-silent.mp4", "width": 1080, "height": 1920, "durationSeconds": 40.9, "audio": false },
+    { "file": "landscape-1920x1080.mp4", "width": 1920, "height": 1080, "durationSeconds": 37.0, "audio": true },
+    { "file": "landscape-1920x1080-silent.mp4", "width": 1920, "height": 1080, "durationSeconds": 37.0, "audio": false }
+  ],
+  "sceneOrder": [
+    { "id": "01", "scene": "Live island main screen", "interaction": "Open the map-first management screen with no tab navigation." },
+    { "id": "02", "scene": "Select a guest room on the island", "interaction": "Select an arriving guest; available room tiles glow." },
+    { "id": "03", "scene": "Room assigned and marked on the map", "interaction": "Tap a room tile and show the occupant marker." },
+    { "id": "04", "scene": "Live arrivals and one-tap room planning", "interaction": "Show guest cards and use automatic room planning." },
+    { "id": "05", "scene": "Night report and results", "interaction": "Open the night and review satisfaction, revenue, and guest outcomes." },
+    { "id": "06", "scene": "Blueprint sheet from the main screen", "interaction": "Open the build catalog as an overlay sheet." },
+    { "id": "07", "scene": "Glowing build sites on the island", "interaction": "Select the solar blueprint and reveal connected placement tiles." },
+    { "id": "08", "scene": "Facility build and module inspection", "interaction": "Place the solar facility and inspect it on the map." },
+    { "id": "09", "scene": "Travel-memory sheet", "interaction": "End on a 4.5-second still captured from the live game after earning three postcards." }
+  ],
+  "editingNote": "No aspect-ratio crop was used. Each landscape and portrait version was recorded in its native responsive layout. The postcard hold is an actual app capture used as a readable end card."
+}
