@@ -1,0 +1,84 @@
+{
+  "pull_request": 10,
+  "title": "Rebuild ASTERIA as a cozy five-night game",
+  "pull_request_url": "https://github.com/kokilux/game1/pull/10",
+  "merged_at_utc": "2026-11-24T15:15:45Z",
+  "playable_build_merge_sha": "4ba2766a28dde8e91855bbcb348e0bc125e50463",
+  "capture_source_commit": "a1ae2ecc7e1ab53a89ee022833224947371115fe",
+  "playable_build_tree_sha": "7ff137c6a91b505b404a3b3342adc86cd94868c8",
+  "capture_date_utc": "2026-11-24",
+  "captures": {
+    "portrait": {
+      "captured_at_utc": "2026-11-24T15:17:44Z",
+      "source_viewport": { "width": 432, "height": 768 },
+      "capture_layout_changes": "None; native game layout preserved."
+    },
+    "landscape": {
+      "captured_at_utc": "2026-11-24T15:23:43Z",
+      "source_viewport": { "width": 1280, "height": 720 },
+      "capture_layout_changes": "Capture-only two-column reframe: scene at left; choice panel and primary action at right. Game code, copy, and gameplay are unchanged."
+    }
+  },
+  "capture_tool": {
+    "playwright": "1.65.1",
+    "chromium": "153.0.0",
+    "ffmpeg": "9.0.2"
+  },
+  "fresh_save_for_each_take": true,
+  "gameplay": {
+    "played_through_to_finale": true,
+    "nights_completed": 5,
+    "all_wishes_matched": true,
+    "browser_page_errors": 0,
+    "scene_order": [
+      "Opening at the moonberry night camp; meet traveler one and read their wish",
+      "Choose telescope stargazing, star-berry tea, or glowing flowers",
+      "View each traveler reaction, star reward, and memory over five nights",
+      "Complete the constellation and reach the five-traveler finale"
+    ]
+  },
+  "audio": {
+    "game_audio": "The game has no audio track; original score mixed separately.",
+    "music": "New ambient score synthesized specifically for this capture; no third-party music or samples.",
+    "social_mix": "AAC-LC stereo, 48 kHz",
+    "edit_masters": "Separate 16-bit PCM stereo WAV mixes at 48 kHz"
+  },
+  "exports": {
+    "portrait-1080x1920.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 23.80,
+      "video": "H.264 High, 30 fps, yuv420p limited range",
+      "audio": "AAC-LC stereo, 48 kHz"
+    },
+    "portrait-1080x1920-silent.mp4": {
+      "width": 1080,
+      "height": 1920,
+      "duration_seconds": 23.80,
+      "video": "H.264 High, 30 fps, yuv420p limited range",
+      "audio": null
+    },
+    "portrait-1080x1920-mix.wav": {
+      "duration_seconds": 23.80,
+      "audio": "PCM signed 16-bit stereo, 48 kHz"
+    },
+    "landscape-1920x1080.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 31.67,
+      "video": "H.264 High, 30 fps, yuv420p limited range",
+      "audio": "AAC-LC stereo, 48 kHz"
+    },
+    "landscape-1920x1080-silent.mp4": {
+      "width": 1920,
+      "height": 1080,
+      "duration_seconds": 31.67,
+      "video": "H.264 High, 30 fps, yuv420p limited range",
+      "audio": null
+    },
+    "landscape-1920x1080-mix.wav": {
+      "duration_seconds": 31.68,
+      "audio": "PCM signed 16-bit stereo, 48 kHz"
+    }
+  }
+}
